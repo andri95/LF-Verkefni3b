@@ -1,23 +1,56 @@
 body{
-	display: flex;
+	max-width: 60em;
 	margin: 0 auto;
 }
-
+.bakgrunnur{
+	background-image: url(bak.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	background-size: cover;
+}
 .wrapper{
 	max-width: 60em;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+
+}
+
+.haus{
 	display: flex;
 	justify-content: space-around;
+}
+.repo{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.dl{
+	padding-bottom: 2em;
 }
 
 h1{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	font-size: 50px;
+	padding: 1em;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	padding: 1em;
+}
+
+p{
+	font-size: 25px;
 }
 
 a{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	font-size: 25px;
+	text-decoration: none;
 }
 
 p{
